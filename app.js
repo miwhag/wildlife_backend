@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const sendGrid = require('@sendgrid/mail');
 const app = express(); 
-require('dotenv').config()
-console.log(process.env);
+require('dotenv').config();
+
 
 app.use(bodyParser.json());
 app.use(cors());
